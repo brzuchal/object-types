@@ -1,4 +1,4 @@
-# object-types
+# ObjectTypes
 PHP Objective implementation of primitive data types
 
 ## Installation
@@ -27,7 +27,7 @@ $stringValue = new StringType("Testing");
 
 (string)$stringValue; // "Testing"
 $stringValue->length(); // IntegerType(7)
-$stringValue->replace("Test", "Post"); // StringType("Posting")
+$stringValue->replace(new StringType("Test"), new StringType("Post")); // StringType("Posting")
 $stringValue->repeat(new IntegerType(2)); // StringType("TestingTesting")
 
 

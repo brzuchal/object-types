@@ -1,0 +1,18 @@
+{
+    "name": "mbrzuchalski/object-types",
+    "description": "PHP Objective implementation of primitive data types",
+    "type": "library",
+    "require-dev": {
+        "phpspec/phpspec": "^2.2",
+        "squizlabs/php_codesniffer": "^2.3",
+        "object-calisthenics/phpcs-calisthenics-rules": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michał Brzuchalski",
+            "email": "michal.brzuchalski@gmail.com"
+        }
+    ],
+    "require": {}
+}
